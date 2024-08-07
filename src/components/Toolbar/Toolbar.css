@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, Helvetica, sans-serif,sans-serif;
+}
+
+.toolbar {
+    font-family: Arial, Helvetica, sans-serif,sans-serif;
+    display: block;
+    margin-top: 10px;
+}
+
+.toolbar__list {
+    display: flex;
+}
+
+li {
+    border: 1px solid #000;
+    padding: 0.5em 1.5em;
+}
+
+
+.toolbar__btn {
+    cursor: pointer;
+    background-color: inherit;
+    padding: 0.5em 1.5em;
+    
+}
+
+.active {
+    background-color: #555555;
+    color: #fff;
+}
+
+button {
+    cursor: pointer;
+    border: 1.5px solid #000;
+    padding: 0.5em 1.5em;
+
+}
+
+button:nth-child(n + 2) {
+    margin-left: 20px;
+}  

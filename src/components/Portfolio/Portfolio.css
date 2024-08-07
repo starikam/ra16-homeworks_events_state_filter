@@ -1,0 +1,7 @@
+.container {
+    display: block;
+    max-width: 1117px;
+    margin: 0 auto;
+    display: grid;
+    gap: 10px;
+}
